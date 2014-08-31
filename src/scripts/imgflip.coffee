@@ -97,7 +97,6 @@ memeGenerator = (msg, templateId, text0, text1, boxes, callback) ->
   username = process.env.HUBOT_IMGFLIP_USERNAME
   password = process.env.HUBOT_IMGFLIP_PASSWORD
   preferredDimensions = process.env.HUBOT_MEMEGEN_DIMENSIONS
-
   unless username? and password?
     msg.send "imgflip account isn't setup. Sign up at http://imgflip.com"
     msg.send "Then ensure the HUBOT_IMFGLIP_USERNAME and HUBOT_IMGFLIP_PASSWORD environment variables are set"
