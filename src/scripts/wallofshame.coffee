@@ -11,11 +11,10 @@ headers = [
   ]
 
 inductees = [
-  "Viju Thomas          12-Sep-2014  For posting \"Finally! Light snow in Denver.\" In September.",
-  "Julio                12-Sep-2014  For encouraging me to contribute the wall of (F|Sh)ame; also,",
-  "                                  because I needed another inductee for testing."
+  "Viju Thomas          12-Sep-2014  For posting \"Finally! Light snow in Denver.\" In September."
   ]
 
+# The ``` delimiters below are an attempt to get poor-man's (pre)formatting for the msg:
 module.exports = (robot) ->
   robot.respond /\s*wall\s*of\s*(?:sh|f)ame.*?/i, (msg) ->
-    msg.send '\n' + headers.join('\n') + '\n' + inductees.join('\n')
+    msg.send '```\n' + headers.join('\n') + '\n' + inductees.join('\n') + '```'
