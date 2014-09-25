@@ -11,7 +11,8 @@ headers = [
   ]
 
 inductees = [
-  "Viju Thomas          12-Sep-2014  For posting \"Finally! Light snow in Denver.\" In September."
+  "Viju Thomas          12-Sep-2014  For posting \"Finally! Light snow in Denver.\" In September.",
+  "Nou Luck             25-Sep-2014  Because varchar(10) != CSV."
   ]
 
 # The ``` delimiters below are an attempt to get poor-man's (pre)formatting for the msg:
